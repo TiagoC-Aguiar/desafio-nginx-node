@@ -17,3 +17,13 @@ Nota: A página deverá ser construída em node mas será acessada pelo nginx at
 docker-compose up -d 
 ```
 
+Dentro de alguns instantes a aplicação estará no ar.
+
+---
+
+### Para acessar, digite o seguinte endereço no navegador:
+
+[http://localhost:8080/](http://localhost:8080/)
+
+---
+OBS: caso apresente erro 502, aguarde mais alguns segundo e atualize a página.
