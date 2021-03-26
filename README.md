@@ -26,4 +26,4 @@ Dentro de alguns instantes a aplicação estará no ar.
 [http://localhost:8080/](http://localhost:8080/)
 
 ---
-OBS: caso apresente erro 502, aguarde mais alguns segundo e atualize a página.
+OBS: caso apresente erro 502, aguarde mais alguns segundos e atualize a página.
