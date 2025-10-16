@@ -1,29 +1,29 @@
-# Desafio Nginx com Node.js
+# Nginx Challenge with Node.js
 
-Desafio apresentado no curso Full Cycle (módulo Docker).
+Challenge presented in the Full Cycle course (Docker module).
 
-O desafio consiste em apresentar uma mensagem na tela utilizando nginx com node.js.
+The challenge consists of displaying a message on the screen using nginx with node.js.
 
-Quando uma chamada for feita a aplicação, esta deverá salvar um registro no bando de dados (MySQL). 
-Em seguida, a página deverá apresentar a mensagem ```Full Cycle Rocks!```, logo abaixo uma lista com os registros do banco.
+When a request is made to the application, it should save a record in the database (MySQL).
 
-Nota: A página deverá ser construída em node mas será acessada pelo nginx através de um proxy reverso!
+Then, the page should display the message ```Full Cycle Rocks!```, followed below by a list with the records from the database.
+
+Note: The page should be built in Node.js but will be accessed through nginx via a reverse proxy!
 
 ---
 
-### Para rodar a aplicação utilize o docker-compose.
+### To run the application, use docker-compose.
 
 ```
 docker-compose up -d 
 ```
 
-Dentro de alguns instantes a aplicação estará no ar.
-
+In a few moments, the application will be up and running.
 ---
 
-### Para acessar, digite o seguinte endereço no navegador:
+### To access, enter the following address in your browser:
 
 [http://localhost:8080/](http://localhost:8080/)
 
 ---
-OBS: caso apresente erro 502, aguarde mais alguns segundos e atualize a página.
+NOTE: If you get a 502 error, wait a few more seconds and refresh the page.
